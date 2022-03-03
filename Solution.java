@@ -1,40 +1,66 @@
 public class Solution {
-  
+
   // use this method as a prototype for your answers...
-  void soln1() {
-  // and put your code here.
+    for (int i = 100; i >= 5; i—=5){
+    System.out.println(i);
   }
   
   void soln2() {
-  // and put your code here.
+    for (int i = 100; i >= 5; i -= 5){
+    }
   }
-  
   void soln3() {
-  // and put your code here.
-  }
+      int sum=0;
+      for (int i=9;i<=17;i++){
+        sum+=i;
+      }
+      System.out.println(sum);
+    }
   
   void soln4() {
-  // and put your code here.
+    int smallest = 0;
+    for(int i =0; i < a.length - 1; i++){
+      if (a[i] < a[i + 1]){
+        smallest = a[i];
+      }
+    }
+    System.out.println(smallest);
   }
   
   void soln5() {
-  // and put your code here.
+    int largest = a[0];
+    For (int i = 1; i<a.length - 1; i++) {
+
+      if (a[i] > largest) largest = a[i];
+    }System.out.println(largest);
   }
   
   void soln6() {
-  // and put your code here.
+    for (int i = 0; i < a.length; i++){
+      If (a[i] == true)
+      System.out.println(i);
+      break;
+    }
   }
   
   void soln7() {
-  // and put your code here.
-  }
+    int i = 0;
+      while (a[i] == false) {
+        i++;
+      }
+          System.out.println(i);
+    }
   
   void soln8() {
   // and put your code here.
   }
   
   void soln9() {
-  // and put your code here.
+    for (int i = 0; i < a.length; i++){
+      If (a[i] == true)
+      break;
+    }
+    System.out.println(i);
   }
   
   void soln10() {
