@@ -98,6 +98,8 @@ public class Solution {
     for (int row = 0; row < array.length; row++){
       for (int column = 0; column < array[row].length); column++){
         array[row][column] *= 7;
+      }
+    }
   }
   
   void soln13() {
@@ -106,11 +108,13 @@ public class Solution {
       boolean[][] result = new boolean[array.length][array[0].length];
       for (int row = 0; row < array.length; row++){
           for (int column = 0; column < array[row].length); column++){
-            if ([]  %2 = 0){
-        result[i][j] = true;
+          if ([]  %2 = 0){
+            result[i][j] = true;
             return result;
+          }
+        }
+      }
   }
-  
   void soln14() {
   // create a method that takes two doubles and returns the first parameter raised to the second parameter's value
           return Math.pow(firstPerm,secondPerm);
@@ -137,9 +141,14 @@ public class Solution {
   // Build a WHILE loop that turns on the heat
     // if the thermo.getTemp() is less than 72.0 else it turns on the A/C if thermo.getTemp() is greater that 76.0.
 
-          while (true){
-            if (temp > 76){method acOn}
-          else if{ ( temp < 72){ method heatOn}
+          while (true) {
+            if (temp > 76) {
+              method acOn
+            } else if {
+              (temp < 72) {
+                method heatOn
+              }
+            }
           }
   }
   
@@ -158,9 +167,11 @@ public class Solution {
   // Given an array of objects (of class Xaction) w/nulls,
     // sum all the values of the objects in the array, using Xaction::getValue(). Print the sum.
         for (int i = 0; i<a.length; i++) {
-         if ( array[i] != null){
-           sum +=i;
-         }return sum;
+          if (array[i] != null) {
+            sum += i;
+          }
+          return sum;
+        }
   }
   
   void soln20() {
@@ -185,6 +196,5 @@ public class Solution {
   
   void soln22() {
       //detemine the hypotenuse of a 9 by 7 right triangle, assign it to a double
-              }
-    return math.pow(9,2) + math.pow(7,2) }
+    return math.pow(9,2.0) + math.pow(7,2.0) }
 }
